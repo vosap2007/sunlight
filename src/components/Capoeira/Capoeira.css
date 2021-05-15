@@ -1,0 +1,38 @@
+.Capoeira {
+    text-align: center;
+  }
+  
+  .Capoeira-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+ /* @media (prefers-reduced-motion: no-preference) {
+    .Capoeira-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }*/
+  
+  .Capoeira-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+
+  .Capoeira-title {
+      margin-top: 0px;
+  }
+
+  .Capoeira-text {
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: calc(3px + 2vmin);
+    
+  }
+  
