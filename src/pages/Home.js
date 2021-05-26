@@ -5,7 +5,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-              <CarouselBox/>
+                Це головна сторінка
             </div>
         )
     }

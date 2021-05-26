@@ -12,7 +12,6 @@ import animalImg8 from '../../assets/8.jpg';
 export default class CarouselBox extends Component {
     render() {
         return (
-            <div>
               <Carousel>
                   <Carousel.Item>
                       <img
@@ -103,7 +102,6 @@ export default class CarouselBox extends Component {
                       </Carousel.Caption>
                   </Carousel.Item>
               </Carousel>
-            </div>
         )
     }
 }
