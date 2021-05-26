@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
+import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
+import Home from '../../pages/Home';
+import About from '../../pages/About';
+import Activities from '../../pages/Activities';
+import Contacts from '../../pages/Contacts';
+import Photo from '../../pages/Photo';
+import Price from '../../pages/Price';
+import Studios from '../../pages/Studios';
 import logo from './dance.png';
 
 export default class Header extends Component {
@@ -31,6 +39,18 @@ export default class Header extends Component {
                     </Navbar.Collapse>
                 </Container>
               </Navbar>
+
+             <Router>
+                 <Switch>
+                     <Route exact path='/' component={Home} />
+                     <Route exact path='/about' component={About} />
+                     <Route exact path='/studios' component={Studios} />
+                     <Route exact path='/activities' component={Activities} />
+                     <Route exact path='/photo' component={Photo} />
+                     <Route exact path='/price' component={Price} />
+                     <Route exact path='/contacts' component={Contacts} />
+                 </Switch>
+             </Router>
             </div>
         )
     }
