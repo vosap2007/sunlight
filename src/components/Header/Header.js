@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
-import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Home from '../../pages/Home';
 import About from '../../pages/About';
 import Activities from '../../pages/Activities';
@@ -14,7 +14,7 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-              <Navbar fixed='top' collapseOnSelect expand='md' bg='dark' variant='dark'>
+              <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
                 <Container>
                     <Navbar.Brand href='/'>
                       <img
