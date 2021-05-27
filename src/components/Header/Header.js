@@ -23,7 +23,7 @@ export default class Header extends Component {
                       width='30'
                       className='d-inline-block aling-top'
                       alt='Logo'
-                      /> Sunshine Dance
+                      /> Sunshine Dance Group
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
