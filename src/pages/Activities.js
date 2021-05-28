@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {Button, Card, CardDeck, Container} from 'react-bootstrap';
+import style from './css/bg.css';
 
 export default class Activities extends Component {
     render() {
         return (
-            <>
+            < div className='bg-color'>
             <Container>
-                  <h2 className='text-center m-4'>Наші заходи</h2>
+                  <h2 className='text-center p-4'>Наші заходи</h2>
                   <CardDeck>
                       <Card bg='light' border='secondary' text='secondary'>
                           <Card.Img 
@@ -52,7 +53,7 @@ export default class Activities extends Component {
                       </Card>
                   </CardDeck>
               </Container>
-            </>
+            </div>
         )
     }
 }

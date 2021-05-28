@@ -12,7 +12,7 @@ import animalImg8 from '../../assets/8.jpg';
 export default class CarouselBox extends Component {
     render() {
         return (
-              <Carousel className='m-5'>
+              <Carousel className='p-5'>
                   <Carousel.Item>
                       <img
                       className='d-block w-100'

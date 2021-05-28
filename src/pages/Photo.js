@@ -5,7 +5,7 @@ import CarouselBox from '../components/Carousel/Carousel';
 export default class Photo extends Component {
     render() {
         return (
-            <div>
+            <div className='bg-color'>
                 <Container>
                     <CarouselBox/>
                 </Container>

@@ -4,8 +4,9 @@ import { Container } from 'react-bootstrap';
 export default class Contacts extends Component {
     render() {
         return (
+            <div className='bg-color'>
             <Container className='text-center'>
-              <h1 className='mt-3'>Зв'яжіться з нами</h1>
+              <h1 className='p-3'>Зв'яжіться з нами</h1>
               <h4 className='mt-3'>моб: 000 000-00-00</h4>
               <h4>email: aaa@aaaa.aa</h4>
               <h4 className='mt-3'>м. Київ, метро Позняки,
@@ -16,6 +17,7 @@ export default class Contacts extends Component {
              </h4>
               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlVTTYqhKz9XF8Ot1Qn_2zFJ8f4odEBJumA&usqp=CAU' />
             </Container>
+            </div>
         )
     }
 }

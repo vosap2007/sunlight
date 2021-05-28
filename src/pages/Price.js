@@ -4,9 +4,9 @@ import { Table, Container } from 'react-bootstrap';
 export default class Price extends Component {
     render() {
         return (
-            <div>
-                <Container>
-              <Table striped bordered hover>
+            <div className='bg-color'>
+                <Container className='p-5'>
+              <Table striped bordered hover >
   <thead>
     <tr>
       <th>#</th>
